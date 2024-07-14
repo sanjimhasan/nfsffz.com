@@ -1,0 +1,267 @@
+/*Text Align*/
+.right-align {
+        text-align: right;
+    }
+  
+/*Text Color*/
+  .wordCol1 {
+    color: #007BFF;
+}
+
+/*heading design*/
+.h1ds9_1 {
+  font-size: 15px;
+  text-decoration: none;
+  color: #FF004F;
+  top: 30px;
+  
+}
+
+.h1ds9_2 {
+  font-size: 40px;
+  text-decoration: none;
+  color: #FF004F;
+}
+
+.h1ds9_3 {
+  font-size: 17px;
+  text-decoration: none;
+  color: #FF004F;
+  top: 120px;
+  text-align: left;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+/*text container for text on images*/
+.txtcontainer {
+    position: relative;
+    width: 100%; /* Adjust as needed */
+    max-width: 600px; /* Adjust as needed */
+
+  }
+
+/*text on images*/
+  .txtonimg {
+    position: absolute;
+    bottom: 5px; /* Adjust vertical position */
+    left: 5px; /* Adjust horizontal position */
+    background-color: black; /* Semi-transparent background */
+    padding: 5px 10px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: white;
+  }
+
+/*Comment to visitors for ad*/
+.inAdcmnt {
+  color: gray;
+  text-align: center;
+}
+
+
+/*Footer*/
+       .f00t3r {
+            background: 
+         url('../img/bg/footerBg.png')
+         no-repeat center;
+         background-size: 100%;
+            padding: 20px;
+            text-align: left;
+            border-top: 5px solid #ddd;
+         border-bottom: 5px solid #ddd;
+         border-right: 7px solid #ddd;
+         border-left: 7px solid #ddd;
+         border-color: #BD0000;
+            margin: 0; /* Remove margins from the footer */
+        }
+        .heading4footer {
+            margin: 0; /* Remove margins from h2 */
+          color: whitesmoke;
+        }
+        .abt {
+            margin: 0; /* Remove margins from p */
+          color: whitesmoke;
+          font-size: 14px;
+        }
+       .LinkFooter {
+         transition: 1s;
+            color: red;
+            text-decoration: none;
+            margin: 0; /* Remove margins from a */
+        }
+       .LinkFooter:hover {
+         transition: 1s;
+         color: whitesmoke;
+            text-decoration: none;
+        }
+
+.hr4footer1 {
+  border-color: #BD0000;
+  width: 40%;
+  margin-left: 0;
+}
+
+.hr4footer2 {
+  border-color: #BD0000;
+}
+
+/*Copyright Info*/
+.cpR {
+  text-align: left;
+  color: grey;
+  font-size: 12px;
+}
+
+.linkCpr {
+  text-decoration: none;
+  color: grey;
+}
+
+/*Copyright Info*/
+
+/*Site Info*/
+.webInf {
+  text-align: left;
+  color: grey;
+  font-size: 9px;
+}
+/*Site Info*/
+
+/*Social Media DirectLink Icon*/
+.socialI1 {
+  color: whitesmoke;
+  background: 
+  url('../img/footer/x.png') 
+  no-repeat left center;
+  padding-left: 37px;
+  padding-right: 16px;
+  padding-bottom: 16px;
+  padding-top: 16px;
+  /* Adjust this value based on the width of your icon */
+  background-size: 36px 36px; 
+  /* Adjust based on the size of your icon */
+}
+
+.socialI2 {
+  color: whitesmoke;
+  background: 
+  url('../img/footer/tg.png') 
+  no-repeat left center;
+  padding-left: 37px;
+  padding-right: 16px;
+  padding-bottom: 16px;
+  padding-top: 16px;
+  /* Adjust this value based on the width of your icon */
+  background-size: 36px 36px; 
+  /* Adjust based on the size of your icon */
+}
+
+.socialI3 {
+  color: whitesmoke;
+  background: 
+  url('../img/footer/fb.png') 
+  no-repeat left center;
+  padding-left: 37px;
+  padding-right: 16px;
+  padding-bottom: 16px;
+  padding-top: 16px;
+  /* Adjust this value based on the width of your icon */
+  background-size: 32px 32px; 
+  /* Adjust based on the size of your icon */
+}
+
+.socialI4 {
+  color: whitesmoke;
+  background: 
+  url('../img/footer/insta.png') 
+  no-repeat left center;
+  padding-left: 37px;
+  padding-right: 16px;
+  padding-bottom: 16px;
+  padding-top: 16px;
+  /* Adjust this value based on the width of your icon */
+  background-size: 34px 34px; 
+  /* Adjust based on the size of your icon */
+}
+
+/*Footer*/
+
+/*Direct Link*/
+.htxt_1 {
+  transition: 1s;
+  text-decoration: none;
+  color: #007BFF;
+}
+
+.htxt_1:visited {
+  color: #A984E3;
+}
+
+.htxt_1:hover {
+  transition: 1s;
+  color: whitesmoke;
+  text-decoration: underline;
+}
+
+/*Back to Top*/
+.back2Top {
+  transition: 1s;
+  color: #BD0000;
+  text-decoration: underline;
+}
+
+.back2Top:hover {
+  transition: 1s;
+  color: whitesmoke;
+}
+
+
+/*Top Shortcuts to Sections*/
+.hr4shortcutTop {
+  border-color: #BD0000;
+  width: 90px;
+  margin-left: 0;
+}
+
+.shortcutList {
+  color: #BD0000;
+}
+
+/*Links*/
+.LinkShortcut {transition: 1s;
+            color: #FF004F;
+            text-decoration: none;
+  
+}
+
+.LinkShortcut:visited {
+  color: whitesmoke;
+  text-decoration: none;
+}
+
+.LinkShortcut:hover {
+         color: red;
+            text-decoration: underline;
+}
+
+
+/* Styling for the summary and details elements */
+.shortcutSum {
+  color: #FF004F;
+  cursor: pointer;
+  font-weight: bold;
+  transition: all 0.3s ease; /* Smooth transition for summary */
+}
+
+.shortcutDet {
+  margin-bottom: 10px;
+  background-color: #2A2A2A;
+  padding: 10px;
+  transition: max-height 0.3s ease; /* Smooth transition for content */
+  overflow: hidden;
+  max-height: 50px; /* Initially collapse content */
+}
+
+.shortcutDet[open] {
+  max-height: 525px; /* Adjust height based on content or desired maximum */
+}
