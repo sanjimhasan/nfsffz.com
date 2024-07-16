@@ -1,7 +1,7 @@
 /*Body*/
 body {
-    background-color: #222222;
-    color: whitesmoke;
+    background-color: var(--main-color);
+    color: var(--secondary-color);
 }
 
 /*TopBg*/

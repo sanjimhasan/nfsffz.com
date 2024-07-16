@@ -199,7 +199,7 @@
 
 .htxt_1:hover {
   transition: 1s;
-  color: whitesmoke;
+  color: var(--secondary-color);
   text-decoration: underline;
 }
 
@@ -235,7 +235,7 @@
 }
 
 .LinkShortcut:visited {
-  color: whitesmoke;
+  color: var(--secondary-color);
   text-decoration: none;
 }
 
@@ -255,7 +255,7 @@
 
 .shortcutDet {
   margin-bottom: 10px;
-  background-color: #2A2A2A;
+  background-color: var(--pad-color);
   padding: 10px;
   transition: max-height 0.3s ease; /* Smooth transition for content */
   overflow: hidden;
@@ -265,3 +265,4 @@
 .shortcutDet[open] {
   max-height: 1000px; /* Adjust height based on content or desired maximum */
 }
+/*Top shortcuts section*/
