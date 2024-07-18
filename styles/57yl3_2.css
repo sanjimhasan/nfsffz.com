@@ -64,7 +64,7 @@
             background: 
          url('../img/bg/footerBg.png')
          no-repeat center;
-         background-size: 100%;
+         background-size: cover;
             padding: 20px;
             text-align: left;
             border-top: 5px solid #ddd;

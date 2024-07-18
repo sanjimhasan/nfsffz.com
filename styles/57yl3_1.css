@@ -9,7 +9,7 @@ body {
   background: 
   url('../img/bg/topBg.png')
   no-repeat center;
-  background-size: 100%;
+  background-size: cover;
   padding: 20px;
   border-top: 5px solid #ddd;
   border-bottom: 5px solid #ddd;

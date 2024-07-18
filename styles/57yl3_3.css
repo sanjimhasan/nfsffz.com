@@ -77,10 +77,10 @@ input:checked + label svg.sun {
 input:checked + label svg.moon {
 	fill:#FFF8AB;
 }
+/*Day/Night mode toggle button*/
 
 
-
-/**/
+/*Background Color Change*/
 body {
   transition: background-color
   0.3s ease, color 0.3s ease;
@@ -97,3 +97,14 @@ body.darkTheme {
   --pad-color: #2A2A2A;
   --pad-color-2: #D6D6D6;
 }
+
+/*Background Color Change*/
+
+/*Theme Change Button others*/
+
+.txt4Theme {
+  color: whitesmoke;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+/*Theme Change Button others*/
